@@ -11,7 +11,7 @@ export const testApi = createApi({
   endpoints: (builder) => ({
     getUsers: builder.query({
       query: () => ({
-        url: "/hello",
+        url: "/",
         method: "GET",
       }),
     }),
