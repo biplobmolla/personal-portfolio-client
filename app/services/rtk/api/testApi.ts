@@ -7,7 +7,9 @@ interface Test {
 
 export const testApi = createApi({
   reducerPath: "testApi",
-  baseQuery: fetchBaseQuery({ baseUrl: "http://localhost:8000/" }),
+  baseQuery: fetchBaseQuery({
+    baseUrl: "https://personal-portfolio-server-nu.vercel.app/",
+  }),
   endpoints: (builder) => ({
     getUsers: builder.query({
       query: () => ({
