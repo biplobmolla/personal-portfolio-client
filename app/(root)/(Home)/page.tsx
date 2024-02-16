@@ -1,3 +1,5 @@
+"use client";
+
 import { useGetUsersQuery } from "@/app/services/rtk/api/testApi";
 import Hero from "./views/Hero";
 import RecentProjects from "./views/RecentProjects";
